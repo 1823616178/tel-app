@@ -1,0 +1,44 @@
+.container_home {
+  width: 100%;
+  height: 100%;
+
+  .container_home_header {
+    height: 78px;
+    line-height: 78px;
+    font-size: 24px;
+    background-color: #7c7fe8;
+    color: white;
+  }
+
+  .container_home_search {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+
+    .container_home_search_input {
+      height: 50px;
+      line-height: 50px;
+      outline: none;
+      border: none;
+      padding: 0 10px;
+      font-size: 16px;
+      box-sizing: border-box;
+      width: 250px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .container_home_search_button {
+      display: inline-block;
+      vertical-align: middle;
+      width: 100px;
+      height: 50px;
+      line-height: 50px;
+      background-color: #7c7fe8;
+      color: white;
+    }
+  }
+
+  .container_home_list {
+  }
+}
